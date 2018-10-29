@@ -1,0 +1,40 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+-->
+<div class="oj-hybrid-padding">
+    <h3>Incidents Content Area</h3>
+    <div id="listViewContainer">
+  <div class='oj-flex-bar'>
+    <div class='oj-flex-bar-start'>
+      <label for="inputItem" class="oj-label-inline">Add/Update item:</label>
+    </div>
+    <div class='oj-flex-bar-middle'>
+      <input id="inputItem" data-bind="ojComponent: {component: 'ojInputText', value:itemToAdd}"></input>
+    </div>
+  </div>
+  <button id= "addButton" data-bind="click: addItem, ojComponent: { component: 'ojButton', label: 'Add' }">
+  </button>
+  <button id= "updateButton" data-bind="click: updateSelected, ojComponent: { component: 'ojButton', label: 'Update' }">
+  </button>
+
+    <ul id="listview" aria-label="list using observable array" 
+        data-bind="ojComponent: {
+            component: 'ojListView', 
+            data: dataSource, 
+            selectionMode: 'multiple',
+            selection: selectedItems,
+            item: 
+            {
+                renderer: function(context)
+                {
+                    return context['data']['item'];
+                }
+            }
+        }">
+    </ul>
+
+    <button id= "removeButton" data-bind="click: removeSelected, ojComponent: { component: 'ojButton', label: 'Remove', rootAttributes: {style: 'margin-top: 3px'} }">
+    </button>
+</div>
+</div>

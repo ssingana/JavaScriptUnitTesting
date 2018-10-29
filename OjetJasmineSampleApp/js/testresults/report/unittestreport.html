@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Javascript Unit Test Report - Testing Oracle JET Modules with Jasmine</title>
+    <style type="text/css">html,body{font-family:Arial,sans-serif;font-size:1rem;margin:0;padding:0;}body{padding:10px 40px;}h1{margin-bottom:0;}h2{margin-top:0;margin-bottom:0;color:#999;}table{width:100%;margin-top:20px;margin-bottom:20px;table-layout:fixed;}tr.header{background:#ddd;font-weight:bold;border-bottom:none;}td{padding:7px;border-top:none;border-left:1px black solid;border-bottom:1px black solid;border-right:none;word-break:break-all;word-wrap:break-word;}tr.pass td{color:#003b07;background:#86e191;}tr.skip td{color:#7d3a00;background:#ffd24a;}tr.fail td{color:#5e0e00;background:#ff9c8a;}tr:first-child td{border-top:1px black solid;}td:last-child{border-right:1px black solid;}tr.overview{font-weight:bold;color:#777;}tr.overview td{padding-bottom:0px;border-bottom:none;}tr.system-out td{color:#777;}tr.system-errors td{color:#f00;}hr{height:2px;margin:30px 0;background:#000;border:none;}section{margin-top:40px;}h3{margin:6px 0;}.overview{color:#333;font-weight:bold;}.system-out{margin:0.4rem 0;}.system-errors{color:#a94442}.spec{padding:0.8rem;margin:0.3rem 0;}.spec--pass{color:#3c763d;background-color:#dff0d8;border:1px solid #d6e9c6;}.spec--skip{color:#8a6d3b;background-color:#fcf8e3;border:1px solid #faebcc;}.spec--fail{color:#a94442;background-color:#f2dede;border:1px solid #ebccd1;}.spec--group{color:#636363;background-color:#f0f0f0;border:1px solid #e6e6e6;margin:0;}.spec--group:not(:first-of-type){margin:20px 0 0 0;}.spec__title{display:inline;}.spec__suite{display:inline;}.spec__descrip{font-weight:normal;}.spec__status{float:right;}.spec__log{padding-left: 2.3rem;}.hidden{display:none;}body.compact .spec p{margin-top:0;margin-bottom:0.5rem;}body.compact .spec,body.compact tr,body.compact .overview,body.compact .system-out,body.compact .system-errors{font-size:0.85rem;}body.compact .spec{padding:0.3rem 0.5rem;}body.compact section{margin-top:30px;}</style>
+  </head>
+  <body class="compact">
+    <h1>Javascript Unit Test Report</h1>
+    <h2>Testing Oracle JET Modules with Jasmine</h2>
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tr class="overview">
+        <td colspan="3" title="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0">Browser: Firefox 52.0.0 (Windows 7 0.0.0)</td>
+      </tr>
+      <tr class="overview">
+        <td colspan="3">Timestamp: 10/18/2017, 12:14:40 PM</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          14 tests / 
+          0 errors / 
+          1 failures / 
+          1 skipped / 
+          runtime: 1.645s
+        </td>
+      </tr>
+      <tr class="header">
+        <td>Status</td>
+        <td>Spec</td>
+        <td>Suite / Results</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.002s</td>
+        <td>Adding two numbers.</td>
+        <td>calculator module</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Multiplication of 5 and 8.</td>
+        <td>calculator module</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.002s</td>
+        <td>Customer function Test case.</td>
+        <td>Customer Module</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.007s</td>
+        <td>Comparing Array object .</td>
+        <td>Customer Module</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.528s</td>
+        <td>Reading customers.</td>
+        <td>Customer Module &raquo; </td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.002s</td>
+        <td>Testing the variables.</td>
+        <td>Customer Module</td>
+      </tr>
+      <tr class="skip">
+        <td>Skipped</td>
+        <td>Functionality Yet To Implement.</td>
+        <td>Customer Module</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.005s</td>
+        <td>Handle Activated Test Case.</td>
+        <td>Dashboard Module</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.001s</td>
+        <td>Handle Attached Test Case.</td>
+        <td>Dashboard Module</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.53s</td>
+        <td>Bar Chart Testing.</td>
+        <td>Dashboard Module &raquo; </td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>Area Chart Testing.</td>
+        <td>
+          Dashboard Module &raquo; 
+          <br />Array length differs! Actual length: 4, expected length: 5
+@test/dashboardTest.js:41:13
+@test/dashboardTest.js:37:5
+DashboardViewModel/self.getDashboardBarchartData/&lt;.success@viewModels/dashboard.js:9:4984
+jQuery.Callbacks/fire@libs/jquery/jquery-3.1.1.js:3305:11
+jQuery.Callbacks/self.fireWith@libs/jquery/jquery-3.1.1.js:3435:7
+done@libs/jquery/jquery-3.1.1.js:9242:5
+.send/callback/&lt;@libs/jquery/jquery-3.1.1.js:9484:9
+_xhrSend/process&lt;/&lt;/&lt;/finishRequest@node_modules/jquery-mockjax/src/jquery.mockjax.js:292:8
+_xhrSend/process&lt;/&lt;/&lt;@node_modules/jquery-mockjax/src/jquery.mockjax.js:313:6
+_xhrSend/process&lt;/&lt;@node_modules/jquery-mockjax/src/jquery.mockjax.js:249:13
+
+        </td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.006s</td>
+        <td>Default Incidents Test</td>
+        <td>Incidents Module</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.012s</td>
+        <td>Adding new incident Test</td>
+        <td>Incidents Module</td>
+      </tr>
+      <tr class="pass">
+        <td>Passed in 0.009s</td>
+        <td>Removing incident Test</td>
+        <td>Incidents Module</td>
+      </tr>
+      <tr class="system-out">
+        <td colspan="3"><strong>System output:</strong><br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'handleAttached method called .OJET_QUNIT'
+<br />Firefox 52.0.0 (Windows 7 0.0.0) INFO: 'MOCK GET: /customers', Object{url: '/customers', type: 'GET', isLocal: false, global: true, processData: true, async: true, contentType: 'application/x-www-form-urlencoded; charset=UTF-8', accepts: Object{*: '*/*', text: 'text/plain', html: 'text/html', xml: 'application/xml, text/xml', json: 'application/json, text/javascript', script: 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript'}, contents: Object{xml: RegExp{}, html: RegExp{}, json: RegExp{}, script: RegExp{}}, responseFields: Object{xml: 'responseXML', text: 'responseText', json: 'responseJSON'}, converters: Object{* text: function String() { ... }, text html: true, text json: function parse() { ... }, text xml: function ( data ) { ... }, text script: function ( text ) { ... }}, flatOptions: Object{url: true, context: true}, xhr: function () { ... }, jsonp: 'callback', jsonpCallback: function () { ... }, data: 'json', success: function (data){ ... }, error: function (error){ ... }, method: 'GET'}
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'Inside the TestUtil JS.......'
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'oj language method  called '
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'Calling from the test case'
+<br />Firefox 52.0.0 (Windows 7 0.0.0) INFO: 'MOCK GET: /dashboardbarchart', Object{url: '/dashboardbarchart', type: 'GET', isLocal: false, global: true, processData: true, async: true, contentType: 'application/x-www-form-urlencoded; charset=UTF-8', accepts: Object{*: '*/*', text: 'text/plain', html: 'text/html', xml: 'application/xml, text/xml', json: 'application/json, text/javascript', script: 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript'}, contents: Object{xml: RegExp{}, html: RegExp{}, json: RegExp{}, script: RegExp{}}, responseFields: Object{xml: 'responseXML', text: 'responseText', json: 'responseJSON'}, converters: Object{* text: function String() { ... }, text html: true, text json: function parse() { ... }, text xml: function ( data ) { ... }, text script: function ( text ) { ... }}, flatOptions: Object{url: true, context: true}, xhr: function () { ... }, jsonp: 'callback', jsonpCallback: function () { ... }, data: 'json', success: function (data){ ... }, error: function (error){ ... }, method: 'GET'}
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'Type of data : '
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'BAR CHART DATA RETURNED : {"success":true,"barGroups":["Group A","Group B"],"barSeries":[{"name":"Series 1","items":[42,34]},{"name":"Series 2","items":[55,30]},{"name":"Series 3","items":[36,50]},{"name":"Series 4","items":[22,46]},{"name":"Series 5","items":[22,46]}]}'
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'BAR CHART DATA : [object Object]'
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'Calling from the test case'
+<br />Firefox 52.0.0 (Windows 7 0.0.0) INFO: 'MOCK GET: /dashboardareachart', Object{url: '/dashboardareachart', type: 'GET', isLocal: false, global: true, processData: true, async: true, contentType: 'application/x-www-form-urlencoded; charset=UTF-8', accepts: Object{*: '*/*', text: 'text/plain', html: 'text/html', xml: 'application/xml, text/xml', json: 'application/json, text/javascript', script: 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript'}, contents: Object{xml: RegExp{}, html: RegExp{}, json: RegExp{}, script: RegExp{}}, responseFields: Object{xml: 'responseXML', text: 'responseText', json: 'responseJSON'}, converters: Object{* text: function String() { ... }, text html: true, text json: function parse() { ... }, text xml: function ( data ) { ... }, text script: function ( text ) { ... }}, flatOptions: Object{url: true, context: true}, xhr: function () { ... }, jsonp: 'callback', jsonpCallback: function () { ... }, data: 'json', success: function (data){ ... }, error: function (error){ ... }, method: 'GET'}
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'Type of data : '
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'Incidents after adding new one : [{"id":1,"item":"Information"},{"id":2,"item":"Warning"},{"id":3,"item":"Error"},{"id":4,"item":"Severe"},{"id":5,"item":"Test"}]'
+<br />Firefox 52.0.0 (Windows 7 0.0.0) LOG: 'Incidents after removing new one : [{"id":1,"item":"Information"},{"id":2,"item":"Warning"},{"id":3,"item":"Error"},{"id":5,"item":"Test"}]'
+</td>
+      </tr>
+    </table>
+    <hr/>
+  </body>
+</html>
